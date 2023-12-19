@@ -128,6 +128,7 @@ img {
     margin-left: 0 auto;
     margin-right: 0 auto;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .hero-button {
