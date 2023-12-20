@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <title>WebStudio</title>
 </head>
 <body>
@@ -34,7 +35,27 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-text">Effective Solutions for Your Business</h1>
-                <button type="button" class="hero-button">Order Service</button>
+                <button id="openModalButton" type="button" class="hero-button">Order Service</button>
+                
+
+<!-- Модальне вікно -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalButton">&times;</span>
+    <form id="orderForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="name">ПБІ:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Номер телефону:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <button type="submit">Відправити</button>
+    </form>
+  </div>
+</div>
             </div>
         </section>
 
@@ -155,5 +176,7 @@
                 <p class="footer-text">Increase the flow of customers and <br> sales for your business with digital <br> marketing & growth solutions.</p>
             </div>
     </footer>
+    <script src="./script/script.js"></script>
+    <script src="./script/server.js"></script>
 </body>
 </html>
