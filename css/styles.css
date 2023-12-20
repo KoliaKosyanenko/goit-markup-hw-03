@@ -125,8 +125,8 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     margin-bottom: 48px;
     max-width: 496px;
 }
