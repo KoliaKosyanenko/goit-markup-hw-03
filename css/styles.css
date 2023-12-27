@@ -119,16 +119,15 @@ img {
 
 .hero-text {
     color: #fff;
-    text-align: center;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin: 0 auto;
     margin-bottom: 48px;
     max-width: 496px;
+    text-align: center;
 }
 
 .hero-button {
